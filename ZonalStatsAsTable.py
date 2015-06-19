@@ -13,8 +13,9 @@ from os import listdir
 
 # Set environment settings
 env.workspace = "C:/Users/deepwinter/Documents/ArcGIS/Projects/NASQAN"
+arcpy.env.extent = "MAXOF"
 
-shapePath = "/nasqan_shp_debug"
+shapePath = "/nasqan_shp_hrap"
 precipRasterPath = "/precip_2009_2015_raster"
 outputPath = "/zonal_stats_tables"
 
